@@ -14,7 +14,7 @@
 
 
 # More Results
-![arbitrary](./docs/arbitrary-edition.png)
+![arbitrary](./docs/arbitrary-expression.png)
 **Arbitrary Facial Expresson Manipulation**. The top-left image with blue box is input, the images in odd rows are image with target expression, the images in even rows are animated results.
 
 
