@@ -8,14 +8,12 @@
 **Arbitrary Facial Expression Manipulation**. Our model can 1) perform continuous editing between two expressions (top); 2) learn to only modify one facial component(middle); 3) transform expression in paintings (bottom). From left to right, the emotion intensity is set to 0, 0.5, 0.75, 1, and 1.25.
 
 
-## Single AU Editing
+## Single/Multiple AU Editing
 ![single-au](./docs/single-au.png)
-**Single-au Editing**. AU4: Brow Lowerer; AU5: Upper Lid Raiser; AU7: Lid Tightener; AU12: Lip Corner Puller; AU15: Lip Corner Depressor; AU20: Lip Stretcher. The legend below the images are relative AUs intensity. The higher (lower) AUs value means to strengthen (weaken) the corresponding facial action unit in input image.
+**Single/multiple au Editing**. AU4: Brow Lowerer; AU5: Upper Lid Raiser; AU7: Lid Tightener; AU12: Lip Corner Puller; AU15: Lip Corner Depressor; AU20: Lip Stretcher. The legend below the images are relative AUs intensity. The higher (lower) AUs value means to strengthen (weaken) the corresponding facial action unit in input image.
 
 
 # More Results
-
-## Arbitrary Facial Expression Manipulation
 ![arbitrary](./docs/arbitrary-edition.png)
 **Arbitrary Facial Expresson Manipulation**. The top-left image with blue box is input, the images in odd rows are image with target expression, the images in even rows are animated results.
 
