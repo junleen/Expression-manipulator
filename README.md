@@ -42,4 +42,4 @@ Please contact lingjun@sjtu.edu.cn or open an issue for any questions or suggest
  
 ## Acknowledgement
 - Thanks [Albert Pumarola](https://www.albertpumarola.com/) for sharing his work [GANimation](https://github.com/albertpumarola/GANimation).
-- Thansk the authors of [AffectNet](http://mohammadmahoor.com/affectnet/) for his work on large scale emotion database.
+- Thanks the authors of [AffectNet](http://mohammadmahoor.com/affectnet/) for his work on large scale emotion database.
