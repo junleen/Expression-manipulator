@@ -12,11 +12,11 @@ python3 train.py \
 --name experiment_1 \
 --nepochs_no_decay 30 \
 --nepochs_decay 20 \
---gpu_ids 0 \
+--gpu_ids 0,1 \
 --lr_D 1e-4 \
 --lr_G 1e-4 \
 --lr_decays_to 1e-5 \
---image_size 160 \
+--image_size 128 \
 --batch_size 16 \
 --ngf 64 \
 --ndf 64 \
