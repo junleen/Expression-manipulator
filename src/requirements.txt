@@ -1,0 +1,7 @@
+numpy
+matplotlib
+tqdm
+pickle
+opencv-python
+tensorboardX
+face_alignment

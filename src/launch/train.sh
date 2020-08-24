@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+python3 train.py \
+--data_dir <Your data dir> \
+--images_folder imgs/ \
+--train_annotations_file aus_dataset.pkl \
+--test_annotations_file aus_dataset_test.pkl \
+--generator_name unet_msf_generator \
+--normtype_G instancenorm \
+--discriminator_name discriminator_wgan_plus \
+--normtype_D None \
+--name experiment_1 \
+--nepochs_no_decay 30 \
+--nepochs_decay 20 \
+--gpu_ids 0 \
+--lr_D 1e-4 \
+--lr_G 1e-4 \
+--lr_decays_to 1e-5 \
+--image_size 160 \
+--batch_size 16 \
+--ngf 64 \
+--ndf 64 \
+--cond_nc 13 \
+--train_G_every_n_iterations 4 \
+--lambda_D_prob 1 \
+--lambda_D_cond 150 \
+--lambda_D_gp 10 \
+--lambda_G_fake_cond 150 \
+--lambda_rec_l1 30 \
+--lambda_cyc_l1 30 \
+--lambda_smooth 1e-5
