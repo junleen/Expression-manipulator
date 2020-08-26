@@ -19,6 +19,14 @@
 
 ![gif](./docs/gif.gif)
 
+## Resources
+Here are some links for you to know Action Units better.
+- [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Action-Units)
+- [Imotions](https://imotions.com/blog/facial-action-coding-system/)
+- [Paul Ekman](https://www.paulekman.com/facial-action-coding-system/)
+- [FACS](https://www.cs.cmu.edu/~face/facs.htm)
+- [Wiki](https://en.wikipedia.org/wiki/Facial_Action_Coding_System)
+
 ## Prerequisites
 - Install PyTorch(version==0.4.1 or  >= 1.3.0), torchvision
 
@@ -33,8 +41,6 @@
   tensorboardX
   face_alignment
   ```
-
-  
 
 ## Getting Started
 
