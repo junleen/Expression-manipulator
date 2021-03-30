@@ -72,11 +72,13 @@ bash launch/train.sh
 If you find this repository helpful, use this code or adopt ideas from the paper for your research, please cite:
 
 ```bibtex
-@inProceedings{ling2020finegrained,
-  title     = {Toward Fine-grained Facial Expression Manipulation},
-  author    = {Ling, Jun and Xue, Han and Song, Li and Yang, Shuhui and Xie, Rong and Gu, Xiao},
-  booktitle = {Proceedings of European Conference on Computer Vision (ECCV)},
-  year      = {2020}
+@inproceedings{ling2020toward,
+  title={Toward Fine-grained Facial Expression Manipulation},
+  author={Ling, Jun and Xue, Han and Song, Li and Yang, Shuhui and Xie, Rong and Gu, Xiao},
+  booktitle={European Conference on Computer Vision},
+  pages={37--53},
+  year={2020},
+  organization={Springer}
 }
 ```
 
